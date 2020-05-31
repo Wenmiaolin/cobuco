@@ -42,4 +42,11 @@ nav #box #link {
 nav #box #link a {
   font-size: 18px;
 }
+
+nav #box #social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
 /*# sourceMappingURL=stlye.css.map */
