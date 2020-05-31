@@ -126,3 +126,20 @@ nav{
 
     }
 }
+
+#product{
+    text-align: center;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+
+    div{
+        width: 100px;
+        height: 200px;
+        background: white;
+        position: absolute;
+        top: 73px;
+        right: 161px;
+    }
+
+}
