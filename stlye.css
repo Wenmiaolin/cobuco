@@ -133,6 +133,42 @@ nav #box #social a:nth-child(2) {
   margin: 28px 0 31px;
 }
 
+#contant #new div hr {
+  border: 0.5px solid #000;
+  width: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contant #new div div {
+  position: relative;
+  font-size: 0;
+}
+
+#contant #new div div::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contant #new div img {
+  width: 100%;
+}
+
+#contant #new div:hover hr {
+  width: 100%;
+}
+
+#contant #new div:hover div::before {
+  opacity: 0.5s;
+}
+
 #product {
   text-align: center;
   position: relative;
