@@ -80,7 +80,6 @@ nav #box #social a:nth-child(2) {
 
 #contant {
   width: 1920px;
-  height: 500px;
   background-image: url(./img/paper.png);
   border: 0.1px solid rgba(0, 0, 0, 0);
 }
@@ -142,11 +141,75 @@ nav #box #social a:nth-child(2) {
 }
 
 #product div {
-  width: 100px;
-  height: 200px;
-  background: white;
+  width: 255px;
   position: absolute;
   top: 73px;
   right: 161px;
+}
+
+#product div h3 {
+  color: #f5bb28;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 8.4px;
+  text-align: left;
+}
+
+#product div h4 {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2.8px;
+  text-align: left;
+}
+
+#product div p {
+  font-size: 20px;
+  line-height: 2.5;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+#idea {
+  width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 620px auto;
+      grid-template-columns: 620px auto;
+  grid-gap: 20px;
+  padding-right: 20px;
+}
+
+#idea img {
+  width: 100%;
+  border: 10px solid white;
+}
+
+#idea h2 {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 7.2px;
+  text-align: left;
+}
+
+#idea p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2.5;
+  letter-spacing: 6px;
+  text-align: left;
+}
+
+#idea a {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2.78;
+  letter-spacing: 5.4px;
+  text-align: left;
+  text-decoration: none;
+  padding: 17px 67px;
+  border: 2px solid #252525;
+  color: #252525;
 }
 /*# sourceMappingURL=stlye.css.map */
